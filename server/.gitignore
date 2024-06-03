@@ -1,0 +1,4 @@
+.env
+/graphql/res/public/
+
+node_modules/

@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "apollo-server": "^3.12.1",
+    "apollo-server-core": "^3.12.1",
+    "apollo-server-express": "^3.12.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "googleapis": "^136.0.0",
+    "graphql": "^16.8.1",
+    "graphql-upload": "^16.0.2",
+    "graphql-ws": "^5.14.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.0",
+    "path": "^0.12.7",
+    "simple-hls": "^0.0.1",
+    "stream": "^0.0.2",
+    "uuid": "^9.0.1"
+  }
+}
